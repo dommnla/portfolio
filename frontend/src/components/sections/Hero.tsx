@@ -12,7 +12,7 @@ function Hero() {
             <div className="pointer-events-none absolute inset-y-0 right-0 w-[55%]">
 
                 <img
-                    src={asset("/images/gradpic.jpg")}
+                    src={asset("/images/graduation.png")}
                     alt=""
                     className="h-full w-full object-cover object-[center_0%]"
                 />
