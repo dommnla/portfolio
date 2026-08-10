@@ -38,7 +38,7 @@ function Home() {
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
 
             <HashScroll />
 
