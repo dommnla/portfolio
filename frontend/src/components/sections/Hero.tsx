@@ -1,4 +1,6 @@
 import { portfolio } from "../../data/portfolio";
+const asset = (path: string) =>
+    `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
 
 function Hero() {
     return (
@@ -10,7 +12,7 @@ function Hero() {
             <div className="pointer-events-none absolute inset-y-0 right-0 w-[55%]">
 
                 <img
-                    src="/images/graduation.png"
+                    src={asset("/images/gradpic.jpg")}
                     alt=""
                     className="h-full w-full object-cover object-[center_0%]"
                 />
