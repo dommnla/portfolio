@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { portfolio } from "../data/portfolio";
+import type { ProjectSection } from "../types/Project";
 import Navbar from "../components/layout/Navbar";
 
 function ProjectDetails() {
@@ -92,7 +93,7 @@ function ProjectDetails() {
                 {/* Project Sections */}
                 <div className="mt-28 space-y-32">
 
-                    {project.sections.map((section, index) => {
+                    {project.sections.map((section: ProjectSection, index) => {
 
                         {/* Text-only section */}
                         if (section.type === "text") {
