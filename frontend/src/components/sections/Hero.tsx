@@ -54,13 +54,22 @@ function Hero() {
 
                 <div className="mt-12 flex flex-wrap gap-4">
 
-                    <button className="rounded-xl bg-white px-6 py-3 text-zinc-900 transition hover:bg-zinc-100 md:bg-zinc-900 md:text-white md:hover:bg-zinc-800">
-                        View Projects
-                    </button>
+                    <div className="mt-12 flex gap-4">
+                        <a
+                            href="#projects"
+                            className="rounded-xl bg-zinc-900 px-6 py-3 text-white transition hover:bg-zinc-800"
+                        >
+                            View Projects
+                        </a>
 
-                    <button className="rounded-xl border border-white/70 px-6 py-3 text-white transition hover:bg-white/10 md:border-zinc-300 md:text-zinc-900 md:hover:bg-zinc-100">
-                        Download Resume
-                    </button>
+                        <a
+                            href={asset("/EvangelistaDominiqueLatestResume.pdf")}
+                            download="EvangelistaDominiqueLatestResume.pdf"
+                            className="rounded-xl border border-zinc-300 px-6 py-3 text-zinc-900 transition hover:bg-zinc-100"
+                        >
+                            Download Resume
+                        </a>
+                    </div>
 
                 </div>
 

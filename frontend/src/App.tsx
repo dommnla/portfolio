@@ -9,6 +9,7 @@ import Skills from "./components/sections/Skills";
 import HashScroll from "./components/common/HashScroll";
 import ProjectDetails from "./pages/ProjectDetails";
 import ScrollReveal from "./components/common/ScrollReveal";
+import Contact from "./components/sections/Contact";
 
 function Home() {
     return (
@@ -31,6 +32,10 @@ function Home() {
 
             <ScrollReveal>
                 <Skills />
+            </ScrollReveal>
+
+            <ScrollReveal>
+                <Contact />
             </ScrollReveal>
         </>
     );

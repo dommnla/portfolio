@@ -19,11 +19,13 @@ export const portfolio = {
     },
 
     contact: {
-        email: "dominiqueaevangelista12@email.com",
+        email: "dominiqueaevangelista12@gmail.com",
 
         github: "https://github.com/dommnla",
 
-        linkedin: "https://www.linkedin.com/in/dominique-evangelista-524a77387/"
+        linkedin: "https://www.linkedin.com/in/dominique-evangelista-524a77387/",
+        
+        facebook: "https://www.facebook.com/DomMNL/"
     },
 
     resume: {
@@ -285,13 +287,13 @@ export const portfolio = {
             title: "Daily Crossword",
 
             description:
-                "An interactive newspaper-style crossword puzzle application designed to combine education and entertainment through progressive difficulty levels, personal bests, leaderboards, and progress tracking.",
+                "A desktop crossword puzzle game developed as a mini-capstone project using C# and Windows Forms.",
 
             technologies: [
                 "C#",
-                "Unity",
-                "Photoshop",
-                "Video Editing"
+                "Windows Forms",
+                "Visual Studio",
+                "Photoshop"
             ],
 
             image: asset("/projects/DAILYCROSSWORD.gif"),
@@ -303,28 +305,28 @@ export const portfolio = {
                     title: "About the Project",
 
                     content:
-                        "Daily Crossword is an interactive crossword puzzle application inspired by traditional newspaper puzzles."
+                        "Daily Crossword is a desktop crossword puzzle game developed as a mini-capstone project. The project was created under the requirement to use Windows Forms, giving the team a limited framework in which to design and implement a functional game experience. The application features an interactive crossword grid, numbered entries, and a real-time game timer."
                 },
 
                 {
-                    type: "gallery",
-                    title: "Application Screenshots",
+                    type: "image",
+                    title: "Development",
 
                     description:
-                        "Screenshots showcasing the Daily Crossword interface, puzzle experience, and supporting application features.",
+                        "The game was developed using C# and Windows Forms as part of a mini-capstone project. Working within the limitations of the required framework, the team focused on creating an interactive crossword experience with a functional puzzle interface and game timer.",
 
-                    images: [
-                        asset(
-                            "/projects/daily-crossword/screenshot-1.png"
-                        ),
-                        asset(
-                            "/projects/daily-crossword/screenshot-2.png"
-                        ),
-                        asset(
-                            "/projects/daily-crossword/screenshot-3.png"
-                        )
-                    ]
-                }
+                    image: asset(
+                        "/projects/daily-crossword/CrosswordScreen.png"
+                    )
+                },
+
+                {
+                    type: "text",
+                    title: "My Role",
+
+                    content:
+                        "I contributed to the UI/UX design and application development, helping design the game's interface and navigation while assisting with the implementation of its core functionality. I also participated in testing and debugging to ensure the application provided a reliable and user-friendly experience."
+                },
             ]
         },
 

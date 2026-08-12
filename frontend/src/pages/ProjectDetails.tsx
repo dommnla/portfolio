@@ -56,7 +56,8 @@ function ProjectDetails() {
                     <img
                         src={project.image}
                         alt={project.title}
-                        className="h-[500px] w-full object-cover"
+                        className="h-auto w-full object-contain"
+
                     />
                 </div>
 
@@ -191,7 +192,7 @@ function ProjectDetails() {
                                         <img
                                             src={section.image}
                                             alt={section.title}
-                                            className="mx-auto max-h-[500px] max-w-4xl rounded-3xl border border-zinc-200 object-contain"
+                                            className="mx-auto h-auto w-full max-w-4xl rounded-3xl border border-zinc-200 object-contain"
                                         />
 
                                         <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-zinc-600">
@@ -232,6 +233,30 @@ function ProjectDetails() {
                                                 className="w-full rounded-2xl border border-zinc-200"
                                             />
                                         ))}
+                                    </div>
+
+                                    <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-zinc-600">
+                                        {section.description}
+                                    </p>
+                                </section>
+                            );
+                        }
+
+                        if (section.type === "image") {
+                            return (
+                                <section key={index}>
+                                    <div className="text-center">
+                                        <h2 className="text-4xl font-bold tracking-tight text-zinc-900">
+                                            {section.title}
+                                        </h2>
+                                    </div>
+
+                                    <div className="mt-10">
+                                        <img
+                                            src={section.image}
+                                            alt={section.title}
+                                            className="mx-auto h-auto w-full max-w-5xl rounded-3xl border border-zinc-200 object-contain"
+                                        />
                                     </div>
 
                                     <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-zinc-600">

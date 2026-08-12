@@ -28,6 +28,7 @@ function Projects() {
                             technologies={project.technologies}
                             image={project.image}
                             download={project.download}
+                            showViewProject={project.slug !== "developer-portfolio"}
                         />
                     ))}
 
