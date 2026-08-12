@@ -12,7 +12,7 @@ function About() {
 
                     <div>
 
-                        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
+                        <p className="text-5xl font-bold tracking-tight text-zinc-900">
                             About Me
                         </p>
 
