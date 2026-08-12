@@ -15,7 +15,7 @@ export const portfolio = {
             "Building scalable full-stack applications using React, ASP.NET Core, SQL Server, and modern web technologies.",
 
         about:
-            "I'm an IT graduate specializing in full-stack development with React, ASP.NET Core, C#, and SQL. During my internship, I worked on ERP systems where I implemented UI improvements, permission-based functionality, and backend features. I enjoy building applications that are clean, maintainable, and user-focused."
+            "I'm an easy-going and creative developer who has been interested in technology since I was young, largely because of my love for games and computers. I learn best by doing—building things, experimenting, and figuring things out along the way. I'm working toward becoming a full-stack or game developer, and I enjoy exploring new technologies and creative projects. Outside of development, I enjoy gaming, riding motorcycles, playing basketball, and discovering new fragrances."
     },
 
     contact: {

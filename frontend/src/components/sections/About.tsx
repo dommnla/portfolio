@@ -13,12 +13,8 @@ function About() {
                     <div>
 
                         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500">
-                            About
+                            About Me
                         </p>
-
-                        <h2 className="text-5xl font-bold tracking-tight text-zinc-900">
-                            Building software that solves real problems.
-                        </h2>
 
                     </div>
 
