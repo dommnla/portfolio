@@ -23,6 +23,12 @@ export type ProjectSection =
         images: string[];
     }
     | {
+            type: "image";
+            title: string;
+            description: string;
+            image: string;
+    }
+    | {
         type: "team";
         title: string;
         description: string;
